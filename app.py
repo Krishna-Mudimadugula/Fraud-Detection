@@ -11,19 +11,6 @@ st.set_page_config(
     layout="wide"
 )
 
-repo_url = "https://github.com/Krishna-Mudimadugula/Fraud-Detection"
-
-st.markdown(f"""
-<div style="position: fixed; top: 15px; right: 20px; z-index: 9999; display: flex; gap: 18px; align-items: center;">
-
-    <a href="{repo_url}" target="_blank">
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-             style="width:22px; filter: invert(1);">
-    </a>
-
-</div>
-""", unsafe_allow_html=True)
-
 st.markdown(f"""
 <style>
 .top-right {{
