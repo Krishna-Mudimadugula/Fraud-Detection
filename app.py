@@ -11,7 +11,6 @@ st.set_page_config(
     layout="wide"
 )
 
-repo_url = "https://github.com/Krishna-Mudimadugula/Fraud-Detection"
 
 st.markdown(f"""
 <style>
@@ -41,12 +40,6 @@ st.markdown(f"""
 </style>
 
 <div class="top-right">
-
-    <!-- GitHub Icon -->
-    <a href="{repo_url}" target="_blank">
-        <img class="github-icon"
-        src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png">
-    </a>
 
 </div>
 """, unsafe_allow_html=True)
