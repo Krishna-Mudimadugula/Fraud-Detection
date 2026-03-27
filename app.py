@@ -11,6 +11,7 @@ st.set_page_config(
     layout="wide"
 )
 
+repo_url = "https://github.com/Krishna-Mudimadugula/Fraud-Detection"
 
 st.markdown(f"""
 <style>
