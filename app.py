@@ -25,11 +25,6 @@ st.markdown(f"""
     font-family: sans-serif;
 }}
 
-/* Fork Text */
-.fork-text {{
-    color: white;
-    font-size: 15px;
-    cursor: pointer;
 }}
 
 /* GitHub Icon */
@@ -45,11 +40,6 @@ st.markdown(f"""
 </style>
 
 <div class="top-right">
-
-    <!-- Fork Text -->
-    <a href="{fork_url}" target="_blank">
-        <span class="fork-text">Fork</span>
-    </a>
 
     <!-- GitHub Icon -->
     <a href="{repo_url}" target="_blank">
